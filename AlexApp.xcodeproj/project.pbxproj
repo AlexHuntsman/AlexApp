@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC4A26A1C3AC4B200851377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4A2691C3AC4B200851377 /* AppDelegate.swift */; };
+		CCC4A26F1C3AC4B200851377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC4A26D1C3AC4B200851377 /* Main.storyboard */; };
+		CCC4A2711C3AC4B200851377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC4A2701C3AC4B200851377 /* Assets.xcassets */; };
+		CCC4A2741C3AC4B200851377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC4A2721C3AC4B200851377 /* LaunchScreen.storyboard */; };
+		CCC4A27F1C3AC4B200851377 /* AlexAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4A27E1C3AC4B200851377 /* AlexAppTests.swift */; };
+		CCC4A28A1C3AC4B200851377 /* AlexAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4A2891C3AC4B200851377 /* AlexAppUITests.swift */; };
+		CCDB1DE01C3D693C0038EB9D /* HobbiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1DDF1C3D693C0038EB9D /* HobbiesController.swift */; };
+		CCDB1DE21C3D6A0B0038EB9D /* GamingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1DE11C3D6A0B0038EB9D /* GamingController.swift */; };
+		CCDB1DE41C3D6A4B0038EB9D /* AchevementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1DE31C3D6A4B0038EB9D /* AchevementsController.swift */; };
+		CCDB1DE61C3D6A8B0038EB9D /* FamilyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1DE51C3D6A8B0038EB9D /* FamilyController.swift */; };
+		CCDB1DE81C3D6AA90038EB9D /* SummerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB1DE71C3D6AA90038EB9D /* SummerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC4A27B1C3AC4B200851377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC4A25E1C3AC4B200851377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC4A2651C3AC4B200851377;
+			remoteInfo = AlexApp;
+		};
+		CCC4A2861C3AC4B200851377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC4A25E1C3AC4B200851377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC4A2651C3AC4B200851377;
+			remoteInfo = AlexApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC4A2661C3AC4B200851377 /* AlexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC4A2691C3AC4B200851377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCC4A26E1C3AC4B200851377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC4A2701C3AC4B200851377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC4A2731C3AC4B200851377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCC4A2751C3AC4B200851377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC4A27A1C3AC4B200851377 /* AlexAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC4A27E1C3AC4B200851377 /* AlexAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexAppTests.swift; sourceTree = "<group>"; };
+		CCC4A2801C3AC4B200851377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC4A2851C3AC4B200851377 /* AlexAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC4A2891C3AC4B200851377 /* AlexAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexAppUITests.swift; sourceTree = "<group>"; };
+		CCC4A28B1C3AC4B200851377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDB1DDF1C3D693C0038EB9D /* HobbiesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HobbiesController.swift; sourceTree = "<group>"; };
+		CCDB1DE11C3D6A0B0038EB9D /* GamingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingController.swift; sourceTree = "<group>"; };
+		CCDB1DE31C3D6A4B0038EB9D /* AchevementsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchevementsController.swift; sourceTree = "<group>"; };
+		CCDB1DE51C3D6A8B0038EB9D /* FamilyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyController.swift; sourceTree = "<group>"; };
+		CCDB1DE71C3D6AA90038EB9D /* SummerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC4A2631C3AC4B200851377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC4A2771C3AC4B200851377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC4A2821C3AC4B200851377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC4A25D1C3AC4B200851377 = {
+			isa = PBXGroup;
+			children = (
+				CCC4A2681C3AC4B200851377 /* AlexApp */,
+				CCC4A27D1C3AC4B200851377 /* AlexAppTests */,
+				CCC4A2881C3AC4B200851377 /* AlexAppUITests */,
+				CCC4A2671C3AC4B200851377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC4A2671C3AC4B200851377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC4A2661C3AC4B200851377 /* AlexApp.app */,
+				CCC4A27A1C3AC4B200851377 /* AlexAppTests.xctest */,
+				CCC4A2851C3AC4B200851377 /* AlexAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC4A2681C3AC4B200851377 /* AlexApp */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB1DE91C3D6AE90038EB9D /* Controllers */,
+				CCC4A2691C3AC4B200851377 /* AppDelegate.swift */,
+				CCC4A26D1C3AC4B200851377 /* Main.storyboard */,
+				CCC4A2701C3AC4B200851377 /* Assets.xcassets */,
+				CCC4A2721C3AC4B200851377 /* LaunchScreen.storyboard */,
+				CCC4A2751C3AC4B200851377 /* Info.plist */,
+			);
+			path = AlexApp;
+			sourceTree = "<group>";
+		};
+		CCC4A27D1C3AC4B200851377 /* AlexAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC4A27E1C3AC4B200851377 /* AlexAppTests.swift */,
+				CCC4A2801C3AC4B200851377 /* Info.plist */,
+			);
+			path = AlexAppTests;
+			sourceTree = "<group>";
+		};
+		CCC4A2881C3AC4B200851377 /* AlexAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC4A2891C3AC4B200851377 /* AlexAppUITests.swift */,
+				CCC4A28B1C3AC4B200851377 /* Info.plist */,
+			);
+			path = AlexAppUITests;
+			sourceTree = "<group>";
+		};
+		CCDB1DE91C3D6AE90038EB9D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB1DE71C3D6AA90038EB9D /* SummerController.swift */,
+				CCDB1DE51C3D6A8B0038EB9D /* FamilyController.swift */,
+				CCDB1DE31C3D6A4B0038EB9D /* AchevementsController.swift */,
+				CCDB1DE11C3D6A0B0038EB9D /* GamingController.swift */,
+				CCDB1DDF1C3D693C0038EB9D /* HobbiesController.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC4A2651C3AC4B200851377 /* AlexApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC4A28E1C3AC4B200851377 /* Build configuration list for PBXNativeTarget "AlexApp" */;
+			buildPhases = (
+				CCC4A2621C3AC4B200851377 /* Sources */,
+				CCC4A2631C3AC4B200851377 /* Frameworks */,
+				CCC4A2641C3AC4B200851377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexApp;
+			productName = AlexApp;
+			productReference = CCC4A2661C3AC4B200851377 /* AlexApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC4A2791C3AC4B200851377 /* AlexAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC4A2911C3AC4B200851377 /* Build configuration list for PBXNativeTarget "AlexAppTests" */;
+			buildPhases = (
+				CCC4A2761C3AC4B200851377 /* Sources */,
+				CCC4A2771C3AC4B200851377 /* Frameworks */,
+				CCC4A2781C3AC4B200851377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC4A27C1C3AC4B200851377 /* PBXTargetDependency */,
+			);
+			name = AlexAppTests;
+			productName = AlexAppTests;
+			productReference = CCC4A27A1C3AC4B200851377 /* AlexAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC4A2841C3AC4B200851377 /* AlexAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC4A2941C3AC4B200851377 /* Build configuration list for PBXNativeTarget "AlexAppUITests" */;
+			buildPhases = (
+				CCC4A2811C3AC4B200851377 /* Sources */,
+				CCC4A2821C3AC4B200851377 /* Frameworks */,
+				CCC4A2831C3AC4B200851377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC4A2871C3AC4B200851377 /* PBXTargetDependency */,
+			);
+			name = AlexAppUITests;
+			productName = AlexAppUITests;
+			productReference = CCC4A2851C3AC4B200851377 /* AlexAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC4A25E1C3AC4B200851377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Huntsman, Alexander";
+				TargetAttributes = {
+					CCC4A2651C3AC4B200851377 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CCC4A2791C3AC4B200851377 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CCC4A2651C3AC4B200851377;
+					};
+					CCC4A2841C3AC4B200851377 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CCC4A2651C3AC4B200851377;
+					};
+				};
+			};
+			buildConfigurationList = CCC4A2611C3AC4B200851377 /* Build configuration list for PBXProject "AlexApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC4A25D1C3AC4B200851377;
+			productRefGroup = CCC4A2671C3AC4B200851377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC4A2651C3AC4B200851377 /* AlexApp */,
+				CCC4A2791C3AC4B200851377 /* AlexAppTests */,
+				CCC4A2841C3AC4B200851377 /* AlexAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC4A2641C3AC4B200851377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC4A2741C3AC4B200851377 /* LaunchScreen.storyboard in Resources */,
+				CCC4A2711C3AC4B200851377 /* Assets.xcassets in Resources */,
+				CCC4A26F1C3AC4B200851377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC4A2781C3AC4B200851377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC4A2831C3AC4B200851377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC4A2621C3AC4B200851377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB1DE01C3D693C0038EB9D /* HobbiesController.swift in Sources */,
+				CCDB1DE81C3D6AA90038EB9D /* SummerController.swift in Sources */,
+				CCDB1DE41C3D6A4B0038EB9D /* AchevementsController.swift in Sources */,
+				CCDB1DE21C3D6A0B0038EB9D /* GamingController.swift in Sources */,
+				CCC4A26A1C3AC4B200851377 /* AppDelegate.swift in Sources */,
+				CCDB1DE61C3D6A8B0038EB9D /* FamilyController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC4A2761C3AC4B200851377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC4A27F1C3AC4B200851377 /* AlexAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC4A2811C3AC4B200851377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC4A28A1C3AC4B200851377 /* AlexAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC4A27C1C3AC4B200851377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC4A2651C3AC4B200851377 /* AlexApp */;
+			targetProxy = CCC4A27B1C3AC4B200851377 /* PBXContainerItemProxy */;
+		};
+		CCC4A2871C3AC4B200851377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC4A2651C3AC4B200851377 /* AlexApp */;
+			targetProxy = CCC4A2861C3AC4B200851377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC4A26D1C3AC4B200851377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC4A26E1C3AC4B200851377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC4A2721C3AC4B200851377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC4A2731C3AC4B200851377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC4A28C1C3AC4B200851377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCC4A28D1C3AC4B200851377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC4A28F1C3AC4B200851377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlexApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.AlexApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCC4A2901C3AC4B200851377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlexApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.AlexApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCC4A2921C3AC4B200851377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlexAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.AlexAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexApp.app/AlexApp";
+			};
+			name = Debug;
+		};
+		CCC4A2931C3AC4B200851377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlexAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.AlexAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexApp.app/AlexApp";
+			};
+			name = Release;
+		};
+		CCC4A2951C3AC4B200851377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlexAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.AlexAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlexApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCC4A2961C3AC4B200851377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlexAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.AlexAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlexApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC4A2611C3AC4B200851377 /* Build configuration list for PBXProject "AlexApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC4A28C1C3AC4B200851377 /* Debug */,
+				CCC4A28D1C3AC4B200851377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC4A28E1C3AC4B200851377 /* Build configuration list for PBXNativeTarget "AlexApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC4A28F1C3AC4B200851377 /* Debug */,
+				CCC4A2901C3AC4B200851377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC4A2911C3AC4B200851377 /* Build configuration list for PBXNativeTarget "AlexAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC4A2921C3AC4B200851377 /* Debug */,
+				CCC4A2931C3AC4B200851377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC4A2941C3AC4B200851377 /* Build configuration list for PBXNativeTarget "AlexAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC4A2951C3AC4B200851377 /* Debug */,
+				CCC4A2961C3AC4B200851377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC4A25E1C3AC4B200851377 /* Project object */;
+}

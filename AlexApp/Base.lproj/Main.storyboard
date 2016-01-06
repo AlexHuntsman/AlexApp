@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Hobbies-->
+        <scene sceneID="CXX-x2-rVB">
+            <objects>
+                <viewController title="Hobbies" id="7ch-uj-Cku" customClass="HobbiesController" customModule="AlexApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t4D-cb-K4q"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Ns-Sc-HKQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rpl-DS-WYW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hobbies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z82-9q-EQn">
+                                <rect key="frame" x="126" y="51" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHn-rc-bBl">
+                                <rect key="frame" x="103" y="80" width="115" height="30"/>
+                                <state key="normal" title="To Achevements"/>
+                                <connections>
+                                    <action selector="changeToAchevements:" destination="7ch-uj-Cku" eventType="touchUpInside" id="Mg6-bP-W1a"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAv-Jj-Sht">
+                                <rect key="frame" x="20" y="118" width="280" height="90"/>
+                                <string key="text">Some hobbies of mine are reading, D&amp;D, gaming and others. I spend a lot of my time doing these things when i have free time. Doing D&amp;D with my friends when they are available, reading when i'm into a good book and mostly gaming otherwise.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="CyC-6c-6WU" kind="presentation" identifier="ToAchevents" id="e7s-wO-dtB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QEs-J0-CUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-216" y="-324"/>
+        </scene>
+        <!--Gaming-->
+        <scene sceneID="gDG-ke-2Uc">
+            <objects>
+                <viewController title="Gaming" id="pbf-0v-nVY" customClass="GamingController" customModule="AlexApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3sW-3w-Q6y"/>
+                        <viewControllerLayoutGuide type="bottom" id="wu5-v8-ezA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FzH-7j-IPM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gaming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9M-9e-wJW">
+                                <rect key="frame" x="130" y="60" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEU-bD-eue">
+                                <rect key="frame" x="115" y="83" width="90" height="30"/>
+                                <state key="normal" title="To Family"/>
+                                <connections>
+                                    <action selector="changeToFamily:" destination="pbf-0v-nVY" eventType="touchUpInside" id="R7Q-IZ-duY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoB-6e-Yts">
+                                <rect key="frame" x="20" y="121" width="280" height="117"/>
+                                <string key="text">Gaming is one of my passions. Board gaming, Video Gaming, etc. Computer gaming is great especially on the Steam because of all the sales and great games they have. Steam is not the only great way to get good games because blizzard has great games and minecraft is also a great game there are just so many of them.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="ToFamily" id="XPF-U9-s0n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohw-XQ-uZF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189" y="505"/>
+        </scene>
+        <!--Achevements-->
+        <scene sceneID="BI5-BK-HSX">
+            <objects>
+                <viewController title="Achevements" id="CyC-6c-6WU" customClass="AchevementsController" customModule="AlexApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iOD-pe-hdd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jzz-iT-K00"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dix-QJ-c5v">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Rw-Hx-xYH">
+                                <rect key="frame" x="105" y="72" width="110" height="27"/>
+                                <string key="text" base64-UTF8="YES">
+EEFjaGV2ZW1lbnRzA
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="za5-1i-Zg7">
+                                <rect key="frame" x="117" y="107" width="87" height="30"/>
+                                <state key="normal" title="To Summer"/>
+                                <connections>
+                                    <action selector="changeToSummer:" destination="CyC-6c-6WU" eventType="touchUpInside" id="lyq-7v-m6B"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cwx-ay-ZLY">
+                                <rect key="frame" x="20" y="145" width="280" height="89"/>
+                                <string key="text">Here are some stuff that i am proud to have done such as. Getting metals in science olympiad, getting my brown belt, being a lifeguard and having a great time too. Besides all of the hospital trips everything is going well.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="2Zo-Ic-JxB" kind="presentation" identifier="ToSummer" id="DMY-tz-dtS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YbO-pc-bNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298" y="-331"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController title="Family" id="BYZ-38-t0r" customClass="FamilyController" customModule="AlexApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TT0-K3-BMX">
+                                <rect key="frame" x="128" y="83" width="64" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQL-yE-h9B">
+                                <rect key="frame" x="20" y="145" width="280" height="104"/>
+                                <string key="text">I am the oldest of 3 my siblings being my little brother who is in 8th grade and my little sister who is 4 years old. Nathan my little brother is as annoying as can be but he has his moments. My little sister stephanie is really cute but is very stubborn for her age.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5w-hf-ANZ">
+                                <rect key="frame" x="118" y="107" width="85" height="30"/>
+                                <state key="normal" title="To Hobbies"/>
+                                <connections>
+                                    <action selector="changeTiHobbies:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R7S-MF-dTl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="7ch-uj-Cku" kind="presentation" identifier="ToHobbies" id="cdt-v2-QtW"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-240" y="402"/>
+        </scene>
+        <!--Summer-->
+        <scene sceneID="voA-Z1-bsd">
+            <objects>
+                <viewController title="Summer" id="2Zo-Ic-JxB" customClass="SummerController" customModule="AlexApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="djD-jd-3cO"/>
+                        <viewControllerLayoutGuide type="bottom" id="eDe-xf-wXg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VD2-Hk-ty9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Summer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkX-tI-R5F">
+                                <rect key="frame" x="126" y="42" width="68" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fds-p6-LdF">
+                                <rect key="frame" x="116" y="70" width="88" height="30"/>
+                                <state key="normal" title="To Gaming"/>
+                                <connections>
+                                    <action selector="changeToGaming:" destination="2Zo-Ic-JxB" eventType="touchUpInside" id="gGx-Bb-t2m"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6B-8r-eQI">
+                                <rect key="frame" x="20" y="108" width="280" height="87"/>
+                                <string key="text">This summer I went to summer chemistry to get ahead. After words we went to lagoon and had a great time. which was followed up by a job working at the subway in the south jordan walmart.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjI-s3-6Bx">
+                                <rect key="frame" x="32" y="203" width="240" height="163"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="pbf-0v-nVY" kind="presentation" identifier="ToGaming" id="lLg-G2-Yka"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1NW-f6-16O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="705" y="27"/>
+        </scene>
+    </scenes>
+</document>
