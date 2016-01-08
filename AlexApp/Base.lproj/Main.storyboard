@@ -38,6 +38,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="D20" translatesAutoresizingMaskIntoConstraints="NO" id="jYl-Ou-2go">
+                                <rect key="frame" x="40" y="216" width="240" height="200"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -83,6 +86,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Steam" translatesAutoresizingMaskIntoConstraints="NO" id="ebv-zf-zt8">
+                                <rect key="frame" x="40" y="246" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -131,6 +137,9 @@ EEFjaGV2ZW1lbnRzA
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Achevement" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-BJ-Fyn">
+                                <rect key="frame" x="40" y="242" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -146,7 +155,6 @@ EEFjaGV2ZW1lbnRzA
         <!--Family-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController title="Family" id="BYZ-38-t0r" customClass="FamilyController" customModule="AlexApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -177,6 +185,9 @@ EEFjaGV2ZW1lbnRzA
                                     <action selector="changeTiHobbies:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R7S-MF-dTl"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="family" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-YZ-64y">
+                                <rect key="frame" x="40" y="257" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -185,6 +196,7 @@ EEFjaGV2ZW1lbnRzA
                         <segue destination="7ch-uj-Cku" kind="presentation" identifier="ToHobbies" id="cdt-v2-QtW"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-240" y="402"/>
         </scene>
@@ -221,7 +233,7 @@ EEFjaGV2ZW1lbnRzA
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjI-s3-6Bx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RollerCoaster" translatesAutoresizingMaskIntoConstraints="NO" id="fjI-s3-6Bx">
                                 <rect key="frame" x="32" y="203" width="240" height="163"/>
                             </imageView>
                         </subviews>
@@ -237,4 +249,11 @@ EEFjaGV2ZW1lbnRzA
             <point key="canvasLocation" x="705" y="27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Achevement" width="275" height="183"/>
+        <image name="D20" width="209" height="241"/>
+        <image name="RollerCoaster" width="277" height="182"/>
+        <image name="Steam" width="365" height="138"/>
+        <image name="family" width="650" height="366"/>
+    </resources>
 </document>
